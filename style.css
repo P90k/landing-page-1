@@ -21,8 +21,6 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    height: fit-content;
 }
 nav h4,
 nav ul {
@@ -38,29 +36,31 @@ ul {
 }
 header section {
     display: flex;
-    gap: 30px;  
+    gap: 40px;  
     margin-top: 38px;
     margin-bottom: 60px;
 }
 header section > div {
     flex: 1;
+    width: fit-content;
 }
 header section img {    
     flex: 1;
 }
-header nav h4 {
+.logo {
     font-size: 24px;
     color: #f9faf8;
 }
 .hero {
     color: #F9FAF8;
+    font-family: 'Open Sans', sans-serif;    
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     margin-bottom: 12px;
     margin-top: 0;
 }
 
-header span, 
+.hero-secondary, 
 header a {
     font-size: 18px;
     color: #E5E7EB;
@@ -87,6 +87,12 @@ header button {
     gap: 64px;
     
 }
+.info {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;    
+    font-weight: 800;
+    color: #1F2937;
+}
 .container > div {
     width: 150px;
 }
@@ -104,8 +110,10 @@ header button {
     padding: 54px 0;
 }
 blockquote {
+    font-family: 'Open Sans', sans-serif;    
     font-style: italic;
-    width: 700px;
+    font-weight: light;
+    width: 788px;
     font-size: 36px;
     color: #1F2937;
 }
